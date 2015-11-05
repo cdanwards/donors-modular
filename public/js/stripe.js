@@ -1,10 +1,10 @@
 // ----- Stripe Payment Modal -----
 
 // Name of Organization
-var orgName = "Family Stripe Account";
+var orgName = "Jeremy & Laura Adopt";
 
 // Organizational Badge / Image
-var orgBadge = "img/160x160.jpg";
+var orgBadge = "img/Bouknight1.jpg";
 
 
 var stripe_public_key = $('script[data-pk]').data('pk');

@@ -1,32 +1,63 @@
 body {
-  font-family: "Lucidia Sans", Arial, sans-serif;
+  background-color: #EEEEEE;
 }
 
 .bigbox {
-  max-width: 1184px;
+  max-width: 950px;
   margin: 0 auto;
 }
 
 .giftbox {
   display: inline-block;
   float: left;
-  width: 148px;
+  width: 190px;
   height: 70px;
   padding: 10px 0;
   text-align: center;
 }
 
+
 .lights {
-  background: url('/img/lights.png') no-repeat;
-  padding-top: 90px;
+  background: url('/img/Bouknight1.jpg') no-repeat center;
+  padding-top: 300px;
   padding-bottom: 1em;
+  background-size: cover;
+  background-position: center center;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.main-header {
+  text-align: center;
+  color: #eee;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2.7em;
+}
+
+.paragraph {
+  font-size: 1.4em;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.privacy {
+  text-align: right;
 }
 
 .complete {
-  background-color: #C0C0C0;
-  font-weight: 900;
+  color: #eee;
+  background-color: #434E56;
   vertical-align: middle;
   display: inline-block;
+  background: #999;
+  color: white;
+  font-size: 1.4em;
+  font-weight: 300;
+  width: 190px;
+  height: 60px;
+  line-height: 60px;
 }
 
 .complete:after {
@@ -37,6 +68,7 @@ body {
 
 h1 {
   font-weight: 900;
+  text-transform: center;
 }
 
 p.gracias {
@@ -59,7 +91,7 @@ h3.offer {
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -74,7 +106,7 @@ h3.offer {
   overflow:hidden;
   display:inline-block;
   visibility:visible !important;
-  background-image:-webkit-linear-gradient(#28a0e5,#015e94);
+  /*background-image:-webkit-linear-gradient(#28a0e5,#015e94);
   background-image:-moz-linear-gradient(#28a0e5,#015e94);
   background-image:-ms-linear-gradient(#28a0e5,#015e94);
   background-image:-o-linear-gradient(#28a0e5,#015e94);
@@ -82,21 +114,21 @@ h3.offer {
   background-image:-moz-linear-gradient(#28a0e5,#015e94);
   background-image:-ms-linear-gradient(#28a0e5,#015e94);
   background-image:-o-linear-gradient(#28a0e5,#015e94);
-  background-image:linear-gradient(#28a0e5,#015e94);
+  background-image:linear-gradient(#28a0e5,#015e94);*/
   -webkit-font-smoothing:antialiased;
-  border:0;
+  /*border-width: 4px;*/
   padding:1px;
   text-decoration:none;
-  -webkit-border-radius:5px;
+  /*-webkit-border-radius:5px;
   -moz-border-radius:5px;
   -ms-border-radius:5px;
   -o-border-radius:5px;
-  border-radius:5px;
-  -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2);
+  border-radius:5px;*/
+  /*-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2);
   -moz-box-shadow:0 1px 0 rgba(0,0,0,0.2);
   -ms-box-shadow:0 1px 0 rgba(0,0,0,0.2);
   -o-box-shadow:0 1px 0 rgba(0,0,0,0.2);
-  box-shadow:0 1px 0 rgba(0,0,0,0.2);
+  box-shadow:0 1px 0 rgba(0,0,0,0.2);*/
   -webkit-touch-callout:none;
   -webkit-tap-highlight-color:transparent;
   -webkit-user-select:none;
@@ -107,10 +139,10 @@ h3.offer {
   cursor:pointer}.stripe-button-el::-moz-focus-inner{border:0;
   padding:0}.stripe-button-el span{display:block;
   position:relative;
-  padding:0 12px;
-  height:30px;
-  line-height:30px;
-  background:#1275ff;
+  width: 160px;
+  height:60px;
+  line-height:60px;
+  /*background:#1275ff;
   background-image:-webkit-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
   background-image:-moz-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
   background-image:-ms-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
@@ -119,28 +151,42 @@ h3.offer {
   background-image:-moz-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
   background-image:-ms-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
   background-image:-o-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
-  background-image:linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image:linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);*/
   font-size:14px;
-  color:#fff;
-  font-weight:bold;
+  color:#434E56;
+  background-color: #EEE;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-shadow:0 -1px 0 rgba(0,0,0,0.25);
-  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.25);
+  /*text-shadow:0 -1px 0 rgba(0,0,0,0.25);*/
+  /*-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.25);
   -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.25);
   -ms-box-shadow:inset 0 1px 0 rgba(255,255,255,0.25);
   -o-box-shadow:inset 0 1px 0 rgba(255,255,255,0.25);
-  box-shadow:inset 0 1px 0 rgba(255,255,255,0.25);
-  -webkit-border-radius:4px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.25);*/
+  /*-webkit-border-radius:4px;
   -moz-border-radius:4px;
   -ms-border-radius:4px;
   -o-border-radius:4px;
-  border-radius:4px
+  border-radius:4px*/
+  font-size: 1.3em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
+.stripe-button-el span:hover {
+  color: #00B8D6;
+  border-color: lighten(#00B8D6, 20%);
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.1);
+}
+.strip-button-el
 .stripe-button-el:not(:disabled):active,.stripe-button-el.active {
-  background:#005d93
+  /*background:#005d93*/
+}
+.stripe-button-el:not(:disabled):active,.stripe-button-el.active:hover{
+  /*color: red;
+  border-color: lighten(#868686, 20%);
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.1);*/
 }
 .stripe-button-el:not(:disabled):active span,.stripe-button-el.active span {
-  color:#eee;
+  /*color:#eee;
   background:#008cdd;
   background-image:-webkit-linear-gradient(#008cdd,#008cdd 85%,#239adf);
   background-image:-moz-linear-gradient(#008cdd,#008cdd 85%,#239adf);
@@ -155,18 +201,25 @@ h3.offer {
   -moz-box-shadow:inset 0 1px 0 rgba(0,0,0,0.1);
   -ms-box-shadow:inset 0 1px 0 rgba(0,0,0,0.1);
   -o-box-shadow:inset 0 1px 0 rgba(0,0,0,0.1);
-  box-shadow:inset 0 1px 0 rgba(0,0,0,0.1)
+  box-shadow:inset 0 1px 0 rgba(0,0,0,0.1)*/
 }
 .stripe-button-el:disabled,.stripe-button-el.disabled {
-  background:rgba(0,0,0,0.2);
+  /*background:rgba(0,0,0,0.2);
   -webkit-box-shadow:none;
   -moz-box-shadow:none;
   -ms-box-shadow:none;
   -o-box-shadow:none;
-  box-shadow:none
+  box-shadow:none*/
 }
 .stripe-button-el:disabled span,.stripe-button-el.disabled span {
-  color:#999;
+  /*color:#434E56;
   background:#f8f9fa;
-  text-shadow:0 1px 0 rgba(255,255,255,0.5)
+  text-shadow:0 1px 0 rgba(255,255,255,0.5)*/
+}
+
+button:hover {
+  border-color: #00B8D6;
+  border-style: none;
+  border-width: 2px;
+  font-weight: 400;
 }
