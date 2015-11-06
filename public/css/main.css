@@ -149,8 +149,8 @@ span {
   cursor:pointer}.stripe-button-el::-moz-focus-inner{border:0;
   padding:0}.stripe-button-el span{display:block;
   position:relative;
-  /*width: 160px;
-  height:60px;*/
+  width: 160px;
+  height:60px;
   line-height:60px;
   /*background:#1275ff;
   background-image:-webkit-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
