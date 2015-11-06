@@ -3,6 +3,13 @@ body {
   -webkit-appearance: none;
 }
 
+input[type='submit']
+{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
 
 .bigbox {
   max-width: 950px;
