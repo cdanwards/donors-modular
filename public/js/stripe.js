@@ -4,7 +4,7 @@
 var orgName = "Jeremy & Laura Adopt";
 
 // Organizational Badge / Image
-var orgBadge = "img/Bouknight1.jpg";
+var orgBadge = "img/Bouknight2.jpg";
 
 
 var stripe_public_key = $('script[data-pk]').data('pk');

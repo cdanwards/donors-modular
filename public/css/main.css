@@ -251,3 +251,7 @@ button:hover {
     appearance: none;
   }
 }
+
+.thanks {
+  font-family: 'Roboto', sans-serif;
+}
