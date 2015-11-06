@@ -107,6 +107,11 @@ h3.offer {
     height: 100%;
 }
 
+span {
+    display: block;
+    min-height: 30px;
+}
+
 .stripe-button-el {
   overflow:hidden;
   display:inline-block;
