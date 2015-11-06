@@ -1,6 +1,5 @@
 body {
   background-color: #EEEEEE;
-  -webkit-text-size-adjust: 100%
 }
 
 
@@ -20,6 +19,7 @@ body {
 margin: 0 .5em .5em;
 text-align: center;
 width: 170px;
+line-height: 60px;
 }
 
 
