@@ -3,12 +3,12 @@ body {
   -webkit-appearance: none;
 }
 
-input[type='submit']
+/*input[type='submit']
 {
    -webkit-appearance: none;
    -moz-appearance: none;
    appearance: none;
-}
+}*/
 
 
 .bigbox {
@@ -70,7 +70,6 @@ line-height: 60px;
   font-size: 1.4em;
   font-weight: 300;
   line-height: 60px;
-  padding: 10px 14px;
 }
 
 .complete:after {
