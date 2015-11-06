@@ -180,11 +180,13 @@ span {
   font-size: 1.3em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  -webkit-appearance: none;
 }
 .stripe-button-el span:hover {
   color: #00B8D6;
   border-color: lighten(#00B8D6, 20%);
   box-shadow: 0 0 16px rgba(255, 255, 255, 0.1);
+  -webkit-appearance: none;
 }
 .strip-button-el
 .stripe-button-el:not(:disabled):active,.stripe-button-el.active {
@@ -232,6 +234,7 @@ button:hover {
   border-style: none;
   border-width: 2px;
   font-weight: 400;
+  -webkit-appearance: none;
 }
 
 /*@media (max-width: 600px) {
