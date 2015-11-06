@@ -1,6 +1,8 @@
 body {
   background-color: #EEEEEE;
+  -webkit-text-size-adjust: 100%
 }
+
 
 .bigbox {
   max-width: 950px;
@@ -222,4 +224,10 @@ button:hover {
   border-style: none;
   border-width: 2px;
   font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  .giftbox {
+    width: 250px;
+  }
 }
