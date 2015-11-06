@@ -250,3 +250,23 @@ button:hover {
     appearance: none;
   }
 }
+
+.btn-lg.outline {
+    background: none;
+    padding: 12px 22px;
+}
+
+.btn-lg-primary.outline {
+    border: 2px solid #0099cc;
+    color: #0099cc;
+}
+
+.btn-lg-primary.outline:hover, .btn-lg-primary.outline:focus, .btn-lg-primary.outline:active, .btn-lg-primary.outline.active, .open > .dropdown-toggle.btn-lg-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+.btn-lg-primary.outline:active, .btn-lg-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
