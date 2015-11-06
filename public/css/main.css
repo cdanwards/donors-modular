@@ -183,7 +183,7 @@ span {
   font-weight: 300;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none; 
+  appearance: none;
 }
 .stripe-button-el span:hover {
   color: #00B8D6;
@@ -241,7 +241,7 @@ button:hover {
 }
 
 @media (max-width: 600px) {
-  .giftbox {
-    background-color: red;
+  body {
+    appearance: none;
   }
 }
