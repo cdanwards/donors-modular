@@ -238,8 +238,8 @@ button:hover {
   -webkit-appearance: none;
 }
 
-/*@media (max-width: 600px) {
+@media (max-width: 600px) {
   .giftbox {
-    width: 250px;
+    background-color: red;
   }
-}*/
+}
